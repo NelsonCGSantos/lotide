@@ -18,8 +18,11 @@ const countLetters = function(sentence) {
             }
         }
 }
-console.log(result);
+return result;
 };
 
-countLetters("LHL");
-countLetters("Lighthouse Labs");
+
+const result1 = countLetters("LHL");
+
+assertEqual(result1["L"], 2);
+assertEqual(result1["H"], 1);
