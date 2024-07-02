@@ -15,3 +15,5 @@ const emptyArray = [];
 const tailEmptyArray = tail(emptyArray);
 assertEqual(tailEmptyArray.length, 0);
 assertEqual(emptyArray.length, 0);
+assertEqual(tail(words)[0], "Lighthouse");
+assertEqual(tail(words)[1], "Labs");
