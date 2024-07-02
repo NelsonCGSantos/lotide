@@ -1,6 +1,5 @@
 const chai = require('chai');
 const deepEqual = chai.assert.deepEqual;
-const assertArraysEqual = require('../assertArraysEqual');
 const middle = require("../middle");
 
 
